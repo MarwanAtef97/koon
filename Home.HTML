@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Language" content="ar" />
+  <title>الكون</title>
+
+  <style>
+    body {
+      direction: rtl;
+      font-family: "Cairo", sans-serif;
+      font-size: 25px;
+      color: #ffffff;
+      outline: #ffffff;
+    }
+
+    body {
+        /* Set direction to right-to-left */
+        direction: rtl;
+        /* Set font to Cairo sans-serif with fallback */
+        font-family: 'Cairo', sans-serif;
+        /* Set font size to 25px */
+        font-size: 25px;
+        /* Set text color to white */
+        color: #FFFFFF;
+        /* Set outline color to white */
+        outline: #FFFFFF;
+    } 
+    
+        .header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          padding: 10px;
+          background: rgb(137, 129, 255);
+          z-index: 100;
+          box-shadow: 0 10px 6px -6px rgb(179, 174, 255);
+          text-align: center;
+        }
+        
+        .navbar ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          
+        }
+        .navbar ul li {
+          list-style: none;
+          padding: 5px 15px;
+          
+        }
+        
+        .navbar a {
+            font-size: 20px;
+            color: black;
+            text-shadow: 2px 2px 0px gray;
+            text-decoration: none;
+            font-weight: bolder;
+            padding: 5px;
+            transition: 0.3s;
+            
+        }
+    
+        .navbar a:hover,
+        .navbar a.active {
+          color:rgb(255, 255, 255);
+        }
+    
+        .navbar ul li a:hover {
+          background-color:rgb(255, 255, 255);
+          color: rgb(137, 129, 255);
+          text-shadow: 2px 2px 0px #000000;
+    
+        }
+    
+        .navbar a.active{
+            color: white;
+            text-shadow: 2px 2px 0px #000000;
+        }
+    
+
+    
+
+    .intro {
+      margin: 64px 0;
+      background-image: url(new.png);
+      background-size: 100%;
+      align-self: start;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .intro div {
+      width: 85%;
+      margin: auto;
+      border: 2px solid rgb(137, 129, 255);
+      padding: 3px 10px;
+      text-shadow: 2px 2px 0px rgb(0, 0, 0);
+
+    }
+    .stars {
+      align-self: start;
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+    .stars .content {
+      border: 2px solid rgb(137, 129, 255);
+      text-align: center;
+      text-shadow: 2px 2px 0px gray
+
+    }
+    h3 {
+      color: rgb(137, 129, 255);
+      font-size: 40px;
+      text-align: center;
+      text-shadow: 2px 2px 0px gray;
+    }
+
+    .sun ul {
+      padding: 0;
+    }
+    h1{
+      font-size: xx-large;
+      color:rgb(137, 129, 255) ;
+      text-shadow: 2px 2px 0px gray;
+      align-items: center;
+      align-content: center;
+    }
+    .sun ul li,
+    h4 {
+      color:rgb(137, 129, 255) ;
+      text-shadow: 2px 2px 0px gray;
+      text-align: center;
+    }
+    .sun ul li h5 {
+      padding: 5px 10px;
+    }
+    h5 {
+      color:rgb(0, 0, 0) ;
+      text-shadow: 2px 2px 0px gray;
+    }
+  </style>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="Home.HTML" class="active"> المقدمة </a>
+          </li>
+          <li>
+            <a href="The Sun.html"> الشمس </a>
+          </li>
+          <li>
+            <a href="Inner Planets.html"> مجموعة الكواكب الداخلية </a>
+          </li>
+          <li>
+            <a href="Outer Planets.html"> مجموعة الكواكب الخارجية </a>
+          </li>
+          <li>
+            <a href="Video & Audio.html"> الفيديو والملف الصوتي </a>
+          </li>
+          <li>
+            <a href="mailto:melshatter44@gmail.com"> Contact Us </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+     <section class="intro">
+      <div>
+        <p style="font-size: 19px">
+          أنت تسكن في أحد الأحياء بمحافظتك، وقد تعتقد أن هذا هو أكبر شيء بالنسبة
+          لك. ولكن هذه المحافظة تقع ضمن جزء أكبر هو وطننا مصر التي تقع ضمن جزء
+          أكبر هو العالم والذي يشكل سطح كرة ضخمة تسمى الأرض تسبح في فضاء فسيح
+          يُسمى الكون.
+        </p>
+      </div>
+    </section>
+
+    <section class="stars">
+      <div>
+        <h3>النجوم</h3>
+
+        <div class="content">
+          <p style="font-size: 19px; color: #000">
+            الأجسام التي نراها في السماء ليلا تسمى النجوم وهي أجسام مضيئة ذات
+            أحجام مختلفة توجد في فراغ فسيح يُسمى الفضاء.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="sun">
+      <div>
+        <h3>المجموعة الشمسية</h3>
+        <h4>تتكون مجموعتنا الشمسية من:</h4>
+
+        <ul>
+          <li>
+            <h5>الشمس</h5>
+            <div>
+              <img src="thesun.jpg" height="400"  alt="image" align=" center"/>
+            </div>
+          </li>
+          <li>
+            <h5>مجموعة الكواكب الداخلية (وهي عطارد والزهرة والأرض والمريخ).</h5>
+            <div>
+              <img src="inner.png" height="250" alt="image" />
+            </div>
+          </li>
+          <li>
+            <h5>مجموعة الكواكب الخارجية(وهي المشترى وزحل واورانوس ونبتون).</h5>
+            <div>
+              <img src="outer.png" height="250" alt="image" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</head>
